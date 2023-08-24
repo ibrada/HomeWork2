@@ -68,10 +68,10 @@ public class Main {
 
         //Task 8.2
         var moreWorker = 94;
-        var totalWorker = allWorker + moreWorker;
-        var totalTime = totalWorker * oneWorkerTime;
+        var allWorker = allWorker + moreWorker;
+        var totalTime = allWorker * oneWorkerTime;
         //Method 1
-        System.out.println("Если в компании работает " + totalWorker + " человека, то всего " + totalTime + " часа работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает " + allWorker + " человека, то всего " + totalTime + " часа работы может быть поделено между сотрудниками");
         //Method 2
         System.out.println("Если в компании работает " + (allTime / oneWorkerTime + moreWorker) + " человека, то всего " + (moreWorker * oneWorkerTime + allTime) + " часа работы может быть поделено между сотрудниками");
 
